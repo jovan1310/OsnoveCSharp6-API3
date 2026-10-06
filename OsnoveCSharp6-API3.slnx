@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Zahtevi.http" />
+  </Folder>
+  <Project Path="OsnoveCSharp6-API3.csproj" />
+</Solution>

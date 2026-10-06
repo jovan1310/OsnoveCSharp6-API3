@@ -1,0 +1,21 @@
+GET http://localhost:5266/blogovi
+###
+GET http://localhost:5266/blogovi/0
+###
+POST http://localhost:5266/blogovi
+Content-Type: application/json
+
+{
+    "Naslov": "Naslov treceg posta",
+    "Telo": "Telo treceg posta"
+}
+###
+DELETE http://localhost:5266/blogovi/0
+###
+PUT http://localhost:5266/blogovi/0
+Content-Type: application/json
+
+{
+    "Naslov": "Izmena prvog posta",
+    "Telo": "Izmena tela prvog posta"
+}
